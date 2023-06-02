@@ -12,7 +12,7 @@ const chatRouter = require('./routes/chatRoutes')
 const app = express()
 
 app.use(cors({
-    origin : 'https://mway-frontend-f0928to6y-cuteanddepzai.vercel.app'
+    origin : 'https://mway-frontend-app.vercel.app'
 }))
 app.use(express.static('public/image'));
 

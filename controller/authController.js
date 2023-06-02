@@ -323,7 +323,7 @@ exports.forgotPassword = async (req, res, next) => {
                         ],
                         Subject: "Quên mật khẩu ",
                         TextPart: `Xin chào ${user.name},\n\nBạn đã yêu cầu thay đổi mật khẩu trên MYWAYMYFASHION. Vui lòng truy cập trang đổi mật khẩu và thực hiện theo hướng dẫn để hoàn tất quá trình.\n\nTrân trọng,\nMYWAYMYFASHION`,
-                        HTMLPart: `<h3>Xin chào ${user.name},</h3><p>Bạn đã yêu cầu thay đổi mật khẩu trên MYWAYMYFASHION. Vui lòng truy cập trang đổi mật khẩu và thực hiện theo hướng dẫn để hoàn tất quá trình.<br /> <a href="https://mway-frontend-f0928to6y-cuteanddepzai.vercel.app/account/user/resetPassword/${resetToken}">Tại đây !</a> </p><p>Trân trọng,</p><p>MYWAYMYFASHION</p>`
+                        HTMLPart: `<h3>Xin chào ${user.name},</h3><p>Bạn đã yêu cầu thay đổi mật khẩu trên MYWAYMYFASHION. Vui lòng truy cập trang đổi mật khẩu và thực hiện theo hướng dẫn để hoàn tất quá trình.<br /> <a href="https://mway-frontend-app.vercel.app/account/user/resetPassword/${resetToken}">Tại đây !</a> </p><p>Trân trọng,</p><p>MYWAYMYFASHION</p>`
                     }
                 ]
             })
