@@ -11,7 +11,9 @@ const reviewRouter = require('./routes/reviewRoutes')
 const chatRouter = require('./routes/chatRoutes')
 const app = express()
 
-app.use(cors())
+app.use(cors({
+    origin : 'https://mway-frontend-f0928to6y-cuteanddepzai.vercel.app'
+}))
 app.use(express.static('public/image'));
 
 app.use(cookieParser())
