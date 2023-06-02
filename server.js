@@ -17,7 +17,7 @@ mongoose.connect(DB , {
 
 const io = new Server(server , {
     cors: {
-        origin : 'https://mway-frontend-app.vercel.app'
+        origin : 'https://myway-shop-app.onrender.com'
     }
 })
 
