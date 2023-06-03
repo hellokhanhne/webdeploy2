@@ -20,7 +20,6 @@ app.use(express.static('public/image'));
 
 app.use(cookieParser())
 app.use(bodyParser.json())
-app.use(bodyParser.urlencoded({ extended: true }))
 app.use(mongoSanitize());
 app.get('/' , (req,res) => {
     res.status(200).json({
