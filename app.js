@@ -13,7 +13,7 @@ const app = express()
 
 app.use(cors(
     {
-        origin : "https://shop-myway-frontend.vercel.app"
+        origin : "https://myway-shop-app.onrender.com"
     }
 ))
 app.use(express.static('public/image'));
