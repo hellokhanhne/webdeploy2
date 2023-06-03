@@ -25,7 +25,7 @@ app.use(mongoSanitize());
 app.get('/' , (req,res) => {
     res.status(200).json({
         status : 'success',
-        message : "hello"
+        message : "hello , build success"
     })
 })
 app.use('/myway/api/products', productRouter)
