@@ -9,6 +9,7 @@ const cartRouter = require("./routes/cartRoutes");
 const bookingRouter = require("./routes/bookingRoutes");
 const reviewRouter = require("./routes/reviewRoutes");
 const chatRouter = require("./routes/chatRoutes");
+const path = require("path");
 const app = express();
 
 app.use(
